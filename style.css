@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#gameArea {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 2px solid #333;
+  overflow: hidden;
+}
+
+#player {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: #ffffff;
+  bottom: 10px;
+  left: 20px;
+  transition: left 0.1s;
+  
+}
+
+.block{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(122, 114, 114);
+  top: 0px;
+
+}
